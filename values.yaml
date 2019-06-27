@@ -1,6 +1,6 @@
-replicaCount: 2
+replicaCount: 1
 image:
-  repo: nginx
+  repo: gurjeet.azurecr.io/gurjeetprod:51
 pod:
   port: 80
 nameOverride: ""
